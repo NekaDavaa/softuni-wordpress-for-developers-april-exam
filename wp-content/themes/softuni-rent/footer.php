@@ -1,8 +1,6 @@
 <footer class="site-footer">
 			<p>&copy; Copyright 2023 | Developer links: 
-				<a href="#">Edits</a>,
-				<a href="#">Home</a>,
-				<a href="/#">Single</a>
+                        <a href="https://github.com/NekaDavaa/softuni-wordpress-for-developers-april-exam" target="_blank">GitHub Repo</a>
 			</p>
 
 			<div class="header-nav-menu">
@@ -18,10 +16,14 @@
                 </div>
                 
                 <hr>
-                <h3>example of a dynamically fetched post using a shortcode</h3>
+                <h3>    <p> Project can be found at: </p>
+                        <a href="https://github.com/NekaDavaa/softuni-wordpress-for-developers-april-exam" target="_blank">https://github.com/NekaDavaa/softuni-wordpress-for-developers-april-exam</a></h3>
+                        <hr>
+                        <h3>example of a dynamically fetched post using a shortcode</h3>
                 <?php echo do_shortcode( '[property id="98"]' ); ?>	
         </footer>
 	</div>
+
 
         
 
