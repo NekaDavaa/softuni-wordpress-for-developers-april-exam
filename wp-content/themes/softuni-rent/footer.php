@@ -18,7 +18,8 @@
                 <hr>
                 <h3>    <p> Project can be found at: </p>
                         <a href="https://github.com/NekaDavaa/softuni-wordpress-for-developers-april-exam" target="_blank">https://github.com/NekaDavaa/softuni-wordpress-for-developers-april-exam</a></h3>
-                        <hr>
+                        <a href="https://projects.miagod.com/properties/" target="_blank">Visit live demo</a>
+                                <hr>
                         <h3>example of a dynamically fetched post using a shortcode</h3>
                 <?php echo do_shortcode( '[property id="98"]' ); ?>	
         </footer>
