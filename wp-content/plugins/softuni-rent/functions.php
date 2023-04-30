@@ -31,7 +31,7 @@ add_action( 'wp_ajax_softuni_property_like', 'softuni_property_like' );
 
 
 // adding shortcode
-function softuni_rent_property_shortcode($atts)
+function softuni_rent_property_shortcode( $atts )
 {
     $atts = shortcode_atts(
         array(

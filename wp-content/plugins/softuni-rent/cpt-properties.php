@@ -11,8 +11,8 @@ class CustomPostTypeProperties {
 
     public function register_properties_post_type() {
         $labels = array(
-            'name' => __('Properties', 'softuni-rent'),
-            'singular_name' => __('Property', 'softuni-rent'),
+            'name' => __( 'Properties', 'softuni-rent' ),
+            'singular_name' => __( 'Property', 'softuni-rent' ),
             'menu_name'             => _x( 'Property', 'Admin Menu text', 'softuni-rent' ),
             'name_admin_bar'        => _x( 'Property', 'Add New on Toolbar', 'softuni-rent' ),
             'add_new'               => __( 'Add New', 'softuni-rent' ),
@@ -46,8 +46,8 @@ class CustomPostTypeProperties {
     public function register_properties_taxonomies() {
         // Property Types taxonomy
         $property_type_labels = array(
-            'name' => __('Property Types', 'softuni-rent'),
-            'singular_name' => __('Property Type', 'softuni-rent'),
+            'name' => __( 'Property Types', 'softuni-rent' ),
+            'singular_name' => __( 'Property Type', 'softuni-rent' ),
         );
     
         $property_type_args = array(

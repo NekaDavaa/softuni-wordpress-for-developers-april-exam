@@ -29,7 +29,7 @@
                                 <?php the_field('location'); ?>
                             </span>
                             <span class="meta-total-area">
-                                <a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>">
+                                <a href="<?php echo esc_url( get_author_posts_url(get_the_author_meta('ID')) ); ?>">
                                     <?php the_author(); ?>
                                 </a>
                             </span>
@@ -39,15 +39,15 @@
                             <span class="property-price">Cena</span>
                             <span class="property-date">
                                 Posted
-                                <a href="<?php echo esc_url(get_month_link(get_the_time('Y'), get_the_time('m'))); ?>">
-                                    <?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ago'; ?>
+                                <a href="<?php echo esc_url( get_month_link(get_the_time('Y'), get_the_time('m')) ); ?>">
+                                    <?php echo human_time_diff( get_the_time('U'), current_time('timestamp') ) . ' ago'; ?>
                                 </a>
                             </span>
                         </div>
                     </div>
                     <div class="property-image">
                         <div class="property-image-box">
-                            <?php if (has_post_thumbnail()): ?>
+                            <?php if ( has_post_thumbnail() ): ?>
                                 <img src="<?php the_post_thumbnail_url(); ?>" alt="<?php the_title(); ?>">
                             <?php endif; ?>
                         </div>
@@ -58,7 +58,7 @@
         else:
             ?>
             <p>
-                <?php _e('No posts found.', 'softuni'); ?>
+                <?php _e( 'No posts found.', 'softuni' ); ?>
             </p>
             <?php
         endif;
