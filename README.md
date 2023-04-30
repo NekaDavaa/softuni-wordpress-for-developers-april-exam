@@ -1,3 +1,11 @@
+<div class="image-row" style="display: flex;justify-content: center;gap: 20px;">
+<img src="screenshots/screencapture-localhost-2023-04-30-16_07_51.png" alt="Image description" width="200px" height="600px">
+<img src="screenshots/screencapture-localhost-2023-04-2023-04-30-16_08_27.png" alt="Image description" width="200px" height="600px">
+<img src="screenshots/screencapture-localhost-author-admin-2023-04-30-16_08_51.png" alt="Image description" width="200px" height="600px">
+<img src="screenshots/screencapture-localhost-properties-aut-occaecati-ex-aut-2023-04-30-16_09_47.png" alt="Image description" width="200px" height="600px">
+</div>
+
+
 # SoftUni Properties to Rent - WordPress Project
 
 This project is created for the SoftUni WordPress for Developers exam. The project focuses on creating a platform for showcasing rental properties, implementing custom post types, Advanced Custom Fields (ACF), Object-Oriented Programming (OOP) principles, and SASS for styling.
@@ -18,7 +26,7 @@ This project is created for the SoftUni WordPress for Developers exam. The proje
 
 2. Import sql database 
 
-3. Maybe need to update permalinks (http://localhost/sample-post/) and generate some dummy posts for both post types. 
+3. Maybe need to update permalinks (http://localhost/sample-post/) and generate some dummy posts for both post types(maybe). 
 
 4. Activate the theme and plugin from the WordPress dashboard.  
 
