@@ -10,7 +10,8 @@ add_action( 'wp_enqueue_scripts', 'softuni_assets' );
 function register_rent_home() {
     register_nav_menus(
         array(
-            'header-menu' => __('Header Menu', 'text-domain')
+            'header-menu' => __('Header Menu', 'text-domain'),
+            'footer_menu'  => __( 'Footer Menu', 'softuni' ),
         )
     );
 }
