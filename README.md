@@ -18,7 +18,7 @@ This project is created for the SoftUni WordPress for Developers exam. The proje
 
 2. Import sql database 
 
-3. Maybe need to update permalinks and generate some dummy posts for both post types. 
+3. Maybe need to update permalinks (http://localhost/sample-post/) and generate some dummy posts for both post types. 
 
 4. Activate the theme and plugin from the WordPress dashboard.  
 
