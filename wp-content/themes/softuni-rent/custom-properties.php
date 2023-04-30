@@ -13,8 +13,8 @@
     );
     $properties_query = new WP_Query($args);
 
-    if ($properties_query->have_posts()) :
-        while ($properties_query->have_posts()) : $properties_query->the_post();
+    if ( $properties_query->have_posts() ) :
+        while ( $properties_query->have_posts() ) : $properties_query->the_post();
             ?>
             <li class="property-card">
                 <div class="property-primary">
