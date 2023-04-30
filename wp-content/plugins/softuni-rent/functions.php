@@ -1,5 +1,5 @@
 <?php
-
+// adding shortcode
 function softuni_rent_property_shortcode($atts)
 {
     $atts = shortcode_atts(
