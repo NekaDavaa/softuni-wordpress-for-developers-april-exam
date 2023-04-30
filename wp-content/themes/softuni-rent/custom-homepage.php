@@ -28,7 +28,12 @@
                             <span class="meta-location">
                                 <?php the_field('location'); ?>
                             </span>
-                            <span class="meta-total-area">total area</span>
+                            <span class="meta-total-area">
+                                <a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>">
+                                    <?php the_author(); ?>
+                                </a>
+                            </span>
+
                         </div>
                         <div class="property-details">
                             <span class="property-price">Cena</span>

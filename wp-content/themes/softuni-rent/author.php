@@ -1,9 +1,17 @@
 <?php get_header(); ?>
-<?php the_archive_title(); ?>
-<div id="custom-archive-content">
-    <ul class="properties-listing">All archive blog posts:
+
+<h1>
+    <?php the_archive_title(); ?>
+</h1>
+
+<div class="author-bio">
+    <?php echo the_author_meta('user_description'); ?>
+</div>
+
+<div id="custom-homepage-content">
+    <ul class="properties-listing">Author page:
         <?php
-        // wp query for the archive blog posts
+        // wp query for the author page
         $args = array(
             'post_type' => 'post',
             'posts_per_page' => 20,
@@ -12,7 +20,7 @@
 
         $homepage_query = new WP_Query($args);
 
-        // loop for the archive blog posts
+        // loop for the author page
         if ($homepage_query->have_posts()):
             while ($homepage_query->have_posts()):
                 $homepage_query->the_post();
@@ -33,8 +41,11 @@
                         </div>
                         <div class="property-details">
                             <span class="property-price">Cena</span>
-                            <span class="property-date">Posted
-                                <?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ago'; ?>
+                            <span class="property-date">
+                                Posted
+                                <a href="<?php echo esc_url(get_month_link(get_the_time('Y'), get_the_time('m'))); ?>">
+                                    <?php echo human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ago'; ?>
+                                </a>
                             </span>
                         </div>
                     </div>
@@ -61,6 +72,5 @@
         ?>
     </ul>
 </div>
-
 
 <?php get_footer(); ?>
