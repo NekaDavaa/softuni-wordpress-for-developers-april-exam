@@ -10,6 +10,8 @@
 
 This project is created for the SoftUni WordPress for Developers exam. The project focuses on creating a platform for showcasing rental properties, implementing custom post types, Advanced Custom Fields (ACF), Object-Oriented Programming (OOP) principles, and SASS for styling.
 
+You can access the site via https://projects.miagod.com/properties/
+
 ## Features
 
 - Custom Post Type for Properties
