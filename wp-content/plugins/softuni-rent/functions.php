@@ -39,3 +39,14 @@ function softuni_rent_property_shortcode($atts)
 }
 
 add_shortcode( 'property', 'softuni_rent_property_shortcode' );
+
+// function for views count
+function update_property_views_count( $property_id ) {
+    $current_views_count = get_post_meta( $property_id, 'property_views_count', true );
+    if (empty( $current_views_count )) {
+        $current_views_count = 0;
+    }
+    $new_views_count = $current_views_count + 1;
+    update_post_meta( $property_id, 'property_views_count', $new_views_count );
+}
+
