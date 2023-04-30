@@ -50,3 +50,17 @@ function update_property_views_count( $property_id ) {
     update_post_meta( $property_id, 'property_views_count', $new_views_count );
 }
 
+// filter
+function softuni_rent_modify_post_title($title, $id = null) {
+    // Check if the post type is 'post'
+    if (get_post_type($id) === 'post') {
+        $prefix = 'SoftUni BlogPost: ';
+        $title = $prefix . $title;
+    }
+    
+    return $title;
+}
+add_filter('the_title', 'softuni_rent_modify_post_title', 10, 2);
+
+
+
