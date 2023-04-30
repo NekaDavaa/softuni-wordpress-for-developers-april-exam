@@ -26,9 +26,10 @@ This project is created for the SoftUni WordPress for Developers exam. The proje
 
 2. Import sql database 
 
-3. You might need to update the permalinks (http://localhost/sample-post/), create a new homepage and an "All Properties" page using the templates I've designed, and generate some dummy posts for both post types.
+3. Activate the theme and plugin from the WordPress dashboard.  
 
-4. Activate the theme and plugin from the WordPress dashboard.  
+4. You might need to update the permalinks (http://localhost/sample-post/), create a new homepage and an "All Properties" page using the templates I've designed, and generate some dummy posts for both post types.
+
 
 5. Install and activate the ```Advanced Custom Fields (ACF) plugin.``` This is ```required``` for the project to work correctly. (https://wordpress.org/plugins/advanced-custom-fields/)
 
