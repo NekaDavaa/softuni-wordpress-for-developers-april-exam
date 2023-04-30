@@ -6,11 +6,12 @@ if (is_singular('properties')) {
 }
 
 
-// display the views count
+// display the views count and ajax likes
 $property_id = get_the_ID();
 $views_count = get_post_meta($property_id, 'property_views_count', true);
+$likes_count = get_post_meta($property_id, 'property_likes', true);
 echo '<div class="property-views-count">Views: ' . intval($views_count) . '</div>';
-
+echo '<div class="property-likes-count">Likes: ' . intval($likes_count) . '</div>'; 
 ?>
 
 <!-- rest of design -->
@@ -77,7 +78,7 @@ echo '<div class="property-views-count">Views: ' . intval($views_count) . '</div
                 ?>
             </div>
         </div>
-        <a href="#" class="button button-wide">Like the property</a>
+        <a href="<?php echo get_the_ID(); ?>" data-property-id="<?php echo get_the_ID(); ?>" class="button button-wide like-button">Like the property</a>
     </aside>
 </div>
  
