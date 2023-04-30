@@ -37,6 +37,10 @@ a {
 	margin: 0 auto;
 }
 
+.header-nav-menu .current-menu-item > a {
+    color: red !important;
+}
+
 .site-title { font-size: 2em; }
 
 .properties-listing {
