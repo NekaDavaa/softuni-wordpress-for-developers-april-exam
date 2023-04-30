@@ -62,7 +62,7 @@
         else:
             ?>
             <p>
-                <?php _e('No posts found.', 'text-domain'); ?>
+                <?php _e('No posts found.', 'softuni'); ?>
             </p>
             <?php
         endif;
