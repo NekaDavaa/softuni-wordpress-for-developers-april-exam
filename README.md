@@ -15,8 +15,10 @@ This project is created for the SoftUni WordPress for Developers exam. The proje
 
 1. Clone the repository into your wp-content folder in your WordPress installation:
 ```git clone https://github.com/NekaDavaa/softuni-wordpress-for-developers-april-exam.git```
+
 2. Activate the theme and plugin from the WordPress dashboard.
-3.Install and activate the Advanced Custom Fields (ACF) plugin. This is required for the project to work correctly. (https://wordpress.org/plugins/advanced-custom-fields/)
+
+3.Install and activate the ```Advanced Custom Fields (ACF) plugin.``` This is ```required``` for the project to work correctly. (https://wordpress.org/plugins/advanced-custom-fields/)
 
 #
 # Greetings
