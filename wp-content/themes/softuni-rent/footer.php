@@ -1,8 +1,8 @@
 <footer class="site-footer">
 			<p>&copy; Copyright 2023 | Developer links: 
-				<a href="/edits.html">Edits</a>,
-				<a href="/index.html">Home</a>,
-				<a href="/single.html">Single</a>
+				<a href="#">Edits</a>,
+				<a href="#">Home</a>,
+				<a href="/#">Single</a>
 			</p>
 
 			<div class="header-nav-menu">

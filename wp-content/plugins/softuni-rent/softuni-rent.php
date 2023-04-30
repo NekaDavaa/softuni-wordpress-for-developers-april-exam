@@ -15,7 +15,7 @@
  */
 
  // Load Custom Post Types
-// require 'cpt-jobs.php';
+ require_once 'cpt-properties.php';
 
 // Load our basic functions
 include 'functions.php';
