@@ -7,12 +7,10 @@ add_action( 'wp_enqueue_scripts', 'softuni_assets' );
 
 
 // Registering menus
-function register_rent_home() {
-    register_nav_menus(
-        array(
-            'header-menu' => __('Header Menu', 'text-domain'),
-            'footer_menu'  => __( 'Footer Menu', 'softuni' ),
-        )
-    );
+function renthome_register_nav_menu(){
+    register_nav_menus( array(
+        'primary_menu' => __( 'Primary Menu Name', 'softuni' ),
+        'footer_menu'  => __( 'Footer Menu', 'softuni' ),
+    ) );
 }
-add_action('after_setup_theme', 'register_rent_home');
+add_action( 'after_setup_theme', 'renthome_register_nav_menu', 0 );
