@@ -16,8 +16,15 @@
                         }
                         ?>
                 </div>
-		</footer>
+                
+                <hr>
+                <h3>example of a dynamically fetched post using a shortcode</h3>
+                <?php echo do_shortcode('[property id="98"]'); ?>	
+        </footer>
 	</div>
+
+        
+
 
 </body>
 </html>
